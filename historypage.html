@@ -13,34 +13,38 @@
     <title>Education4ol</title>
   </head>
   <body class="bg-light">
-    <nav class="navbar navbar-expand-sm  navbar-dark bg-teal">
-    <div class="container">
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#course-navbar">
+     <nav class="navbar navbar-expand-lg  navbar-dark bg-teal">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="submit" data-bs-toggle="collapse" data-bs-target="#course-navbar" aria-controls="course-navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon ">
             </span>
         </button>
    
-        <div class="main">
             <div class="collapse navbar-collapse" id="course-navbar">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="navbar-item px-3">
-                        <a href="index.html"><button class="btn-primary" type="submit">Home</button></a>
+                        <a class="nav-link" href="index.html"><button class="btn-primary" type="submit">Home</button></a>
                     </li>
                     <li class="navbar-item px-3">
-                        <a href="index.html#course"><button class="btn-primary" type="submit">Courses</button></a>
+                        <a class="nav-link" href="index.html#course"><button class="btn-primary" type="submit">Courses</button></a>
                     </li>
                     <li class="navbar-item px-3">
-                        <a href="index.html#contact"><button class="btn-primary" type="submit">Contact Us</button></a>
+                        <a class="nav-link" href="index.html#contact"><button class="btn-primary" type="submit">Contact Us</button></a>
                     </li>
                     <li class="navbar-item px-3">
-                        <a href="index.html"><button class="btn-primary" type="submit">logout</button></a>
+                        <a class="nav-link" href="index.html"><button class="btn-primary" type="submit">logout</button></a>
                     </li>
                 </ul>
+                <span>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                </span>
             </div>
-        </div>
     </div>    
     </nav>    
-        
+   
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-10 col-11 mx-auto">
